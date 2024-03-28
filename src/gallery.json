@@ -1,0 +1,32 @@
+{
+	"gallery": [
+		{
+			"id": 1,
+			"title": "Delay Calculator",
+			"img_url": "portfolio/Delay-Calculator.png",
+			"desc": "Full Vanilla JS Website to calculate delay ms & hz from bpm.",
+			"url": "https://anakutara.github.io/delay-calculator/"
+		},
+		{
+			"id": 2,
+			"title": "OLX Details Page Replica",
+			"img_url": "portfolio/OLX-Details-Replica.png",
+			"desc": "Replica of OLX product details page to implement CSS knowledge.",
+			"url": ""
+		},
+		{
+			"id": 3,
+			"title": "Simple Swatcher",
+			"img_url": "portfolio/Simple-Swatcher.png",
+			"desc": "Responsive Flutter based color swatch application.",
+			"url": "https://anakutara.github.io"
+		},
+		{
+			"id": 4,
+			"title": "Band Website",
+			"img_url": "portfolio/The-Smile.png",
+			"desc": "Basic landing page for CSS practice.",
+			"url": ""
+		}
+	]
+}
