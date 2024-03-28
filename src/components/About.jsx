@@ -17,7 +17,7 @@ export default function About({ id }) {
 					(item, i) => (
 						<p
 							key={i}
-							className="text-[10px] sm:text-xs px-4 py-2 rounded-full bg-black text-white text-center 2xl:text-xl shadow-md transition-transform duration-200 hover:scale-110"
+							className="text-[10px] sm:text-xs lg:text-sm xl:text-base px-4 py-2 rounded-full bg-black text-white text-center 2xl:text-2xl shadow-md transition-transform duration-200 hover:scale-110"
 						>
 							{item}
 						</p>
