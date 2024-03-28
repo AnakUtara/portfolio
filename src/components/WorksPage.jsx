@@ -16,12 +16,14 @@ export default function WorksPage({ id }) {
 		galleryIndex === gallery.length - 1
 			? setGalleryIndex(0)
 			: setGalleryIndex(galleryIndex + 1);
+		handleTransition({ ...isPressed, right: true });
 	}
 
 	function prevImg() {
 		galleryIndex === 0
 			? setGalleryIndex(gallery.length - 1)
 			: setGalleryIndex(galleryIndex - 1);
+		handleTransition({ ...isPressed, left: true });
 	}
 
 	function handleTransition(pressedState) {
@@ -32,7 +34,7 @@ export default function WorksPage({ id }) {
 	function handleThumbnailsNav(item) {
 		const position = gallery.findIndex(({ id }) => id === item["id"]);
 		position !== -1 ? setGalleryIndex(position) : setGalleryIndex(0);
-		handleTransition({ left: false, center: true, right: false });
+		handleTransition({ ...isPressed, center: true });
 	}
 
 	return (
@@ -46,23 +48,9 @@ export default function WorksPage({ id }) {
 				</span>
 			</div>
 			<div className="flex justify-evenly items-center w-full mb-5">
-				<GalleryBtn
-					onclick={() => {
-						prevImg();
-						handleTransition({ left: true, center: false, right: false });
-					}}
-				>
-					chevron_left
-				</GalleryBtn>
+				<GalleryBtn onclick={prevImg}>chevron_left</GalleryBtn>
 				<Gallery state={isPressed} data={imgData} />
-				<GalleryBtn
-					onclick={() => {
-						nextImg();
-						handleTransition({ left: false, center: false, right: true });
-					}}
-				>
-					chevron_right
-				</GalleryBtn>
+				<GalleryBtn onclick={nextImg}>chevron_right</GalleryBtn>
 			</div>
 			<ThumbNav
 				data={gallery}
