@@ -2,7 +2,7 @@
 export default function SocMedBtn({ url, children }) {
 	return (
 		<a
-			className="transition-transform duration-200 hover:scale-110 w-7 h-7 2xl:w-12 2xl:h-12"
+			className="transition-transform duration-200 hover:scale-110 size-6 md:size-7 2xl:size-12"
 			href={url}
 			target="_blank"
 		>

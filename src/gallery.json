@@ -23,9 +23,9 @@
 		},
 		{
 			"id": 4,
-			"title": "Band Website",
-			"img_url": "portfolio/The-Smile.png",
-			"desc": "Basic landing page for CSS practice.",
+			"title": "Chores To Do List",
+			"img_url": "portfolio/Chores-To-Do-List.png",
+			"desc": "Basic React To Do List application.",
 			"url": ""
 		}
 	]

@@ -10,7 +10,7 @@ function App() {
 			<div className="max-w-[1440px] mx-auto my-0">
 				<header className="p-5 fixed z-10 flex justify-between items-start w-full">
 					<div>
-						<h2 className="text-2xl font-bold mb-2 2xl:text-5xl 2xl:mb-4">
+						<h2 className="text-xl md:text-2xl font-bold mb-2 2xl:text-5xl 2xl:mb-4">
 							Portfolio.
 						</h2>
 						<NavBar
@@ -38,16 +38,11 @@ function App() {
 				<main>
 					<HomePage id={"home"} headings={["Front-End", "Developer"]} />
 					<WorksPage id={"works"} />
-					<About
-						id={"about"}
-						imgUrl={
-							"https://images.pexels.com/photos/52608/pexels-photo-52608.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-						}
-					/>
+					<About id={"about"} />
 				</main>
-				<footer className="pl-5 pb-5 fixed bottom-0 z-10 text-sm 2xl:text-2xl">
+				<footer className="pl-5 pb-5 fixed bottom-0 z-10 text-xs 2xl:text-xl">
 					<p>
-						Copyright, Riady <b className="text-md 2xl:text-2xl">&copy;</b>{" "}
+						Copyright, Riady <b className="text-sm 2xl:text-xl">&copy;</b>{" "}
 						{new Date().getFullYear()}
 					</p>
 				</footer>
