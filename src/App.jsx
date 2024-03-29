@@ -8,7 +8,7 @@ function App() {
 	return (
 		<div className="bg-zinc-200">
 			<div className="max-w-[1440px] mx-auto my-0">
-				<header className="p-5 fixed z-10 flex justify-between items-start w-full">
+				<header className="p-5 fixed z-10 flex justify-between items-start w-full 2xl:w-[1440px]">
 					<div>
 						<h2 className="text-xl md:text-2xl font-bold mb-2 2xl:text-5xl 2xl:mb-4">
 							Portfolio.

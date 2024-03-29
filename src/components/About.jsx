@@ -24,9 +24,15 @@ export default function About({ id }) {
 					)
 				)}
 			</div>
-			<p className="w-2/4 md:w-1/4 text-xs text-center md:text-sm lg:text-md xl:text-lg 2xl:text-3xl">
-				Fast forward to now. I made this portfolio site with those tools. That
-				sounds like enough proof to my current state for me.
+			<p className="w-2/4 md:w-1/2 text-xs text-center md:text-sm lg:text-md xl:text-lg 2xl:text-3xl">
+				Fast forward to now. I made this portfolio site with those tools. ✌️
+			</p>
+			<p className="flex items-center gap-3 font-bold w-1/2 md:w-1/3 xl:w-1/4 2xl:w-1/3 p-2 bg-black text-white text-[9px] md:text-[10px] lg:text-[11px] xl:text-md 2xl:text-lg">
+				<span className="material-symbols-outlined self-start text-md md:text-3xl lg:text-4xl">
+					info
+				</span>
+				Contact me through my socials at the top right corner for further
+				inquiries.
 			</p>
 		</div>
 	);
