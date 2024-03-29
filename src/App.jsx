@@ -8,14 +8,14 @@ function App() {
 	return (
 		<div className="bg-zinc-200">
 			<div className="max-w-[1440px] mx-auto my-0">
-				<header className="p-5 fixed z-10 flex justify-between items-start w-full 2xl:w-[1440px]">
+				<header className="p-3 sm:p-5 fixed z-10 flex justify-between items-start w-full 2xl:w-[1440px]">
 					<div>
 						<h2 className="text-xl md:text-2xl font-bold mb-2 2xl:text-5xl 2xl:mb-4">
 							Portfolio.
 						</h2>
 						<NavBar
 							menu={["Home", "Works", "About"]}
-							pages={["#home", "#works", "#about"]}
+							scrollTo={["#home", "#works", "#about"]}
 						/>
 					</div>
 					<div className="flex flex-col justify-between items-center md:flex-row">

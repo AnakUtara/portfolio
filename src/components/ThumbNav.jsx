@@ -5,11 +5,11 @@ export default function ThumbNav({ data, onclick, state }) {
 			{data.map((item, i) => (
 				<>
 					<div
+						key={item.id}
 						className={`w-12 h-12 relative cursor-pointer 2xl:w-20 2xl:h-20`}
 					>
 						<img
 							className={`w-full aspect-square object-cover relative z-10 rounded-full border-zinc-500 border-solid border-2`}
-							key={item.id}
 							src={item.img_url}
 							alt="thumbnails"
 							onClick={() => onclick(item)}
