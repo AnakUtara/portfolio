@@ -26,7 +26,7 @@
 			"title": "Chores To Do List",
 			"img_url": "portfolio/Chores-To-Do-List.png",
 			"desc": "Basic React To Do List application.",
-			"url": ""
+			"url": "https://chores-todo-list.vercel.app/"
 		}
 	]
 }
