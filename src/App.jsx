@@ -3,8 +3,15 @@ import HomePage from "./components/HomePage";
 import WorksPage from "./components/WorksPage";
 import About from "./components/About";
 import SocMedBtn from "./components/SocMedBtn";
+import { useEffect } from "react";
 
 function App() {
+	useEffect(() => {
+		const hash = window.location.hash;
+		if (hash) {
+			window.location.hash = "";
+		}
+	}, []);
 	return (
 		<div className="bg-zinc-200">
 			<div className="max-w-[1440px] mx-auto my-0">
