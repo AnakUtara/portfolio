@@ -6,14 +6,7 @@ export default function SocMedBtn({ url, children }) {
 			href={url}
 			target="_blank"
 		>
-			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				x="0px"
-				y="0px"
-				// width="30"
-				// height="30"
-				viewBox="0 0 24 24"
-			>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
 				{children}
 			</svg>
 		</a>

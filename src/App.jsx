@@ -15,7 +15,7 @@ function App() {
 	return (
 		<div className="bg-zinc-200">
 			<div className="max-w-[1440px] mx-auto my-0">
-				<header className="p-3 sm:p-5 fixed z-10 flex justify-between items-start w-full 2xl:w-[1440px]">
+				<header className="p-3 sm:p-5 fixed z-10 flex justify-between items-start w-full text-white mix-blend-difference 2xl:w-[1440px]">
 					<div>
 						<h2 className="text-xl md:text-2xl font-bold mb-2 2xl:text-5xl 2xl:mb-4">
 							Portfolio.
@@ -47,7 +47,7 @@ function App() {
 					<WorksPage id={"works"} />
 					<About id={"about"} />
 				</main>
-				<footer className="pl-5 pb-5 fixed bottom-0 z-10 text-xs 2xl:text-xl">
+				<footer className="pl-5 pb-5 fixed bottom-0 z-10 text-xs 2xl:text-xl text-white mix-blend-difference">
 					<p>
 						Copyright, Riady <b className="text-sm 2xl:text-xl">&copy;</b>{" "}
 						{new Date().getFullYear()}

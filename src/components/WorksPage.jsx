@@ -38,8 +38,11 @@ export default function WorksPage({ id }) {
 	}
 
 	return (
-		<div id={id} className="flex flex-col justify-center items-center h-screen">
-			<div className="hidden lg:flex lg:items-center lg:mb-3 2xl:mb-5">
+		<div
+			id={id}
+			className="works-page bg-gradient-radial from-black to-transparent flex flex-col justify-center items-center h-screen"
+		>
+			<div className="hidden lg:flex lg:items-center text-white lg:mb-3 2xl:mb-5">
 				<span className="material-symbols-outlined font-bold text-xl animate-spin-slow mr-1 2xl:text-3xl">
 					emergency
 				</span>
@@ -47,7 +50,7 @@ export default function WorksPage({ id }) {
 					Hover on image to see details
 				</span>
 			</div>
-			<div className="flex justify-evenly items-center w-full mb-5">
+			<div className="flex justify-evenly relative items-center w-full mb-5">
 				<GalleryBtn onclick={prevImg}>chevron_left</GalleryBtn>
 				<Gallery state={isPressed} data={imgData} />
 				<GalleryBtn onclick={nextImg}>chevron_right</GalleryBtn>

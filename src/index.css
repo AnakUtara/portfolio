@@ -13,3 +13,103 @@ html {
 .chevron {
 	font-size: 36px;
 }
+
+.works-page {
+	background: linear-gradient(
+			45deg,
+			#0f0f0f 0%,
+			#0f0f0f 5%,
+			transparent 5%,
+			transparent 10%,
+			#0f0f0f 10%,
+			#0f0f0f 15%,
+			transparent 15%,
+			transparent 20%,
+			#0f0f0f 20%,
+			#0f0f0f 25%,
+			transparent 25%,
+			transparent 30%,
+			#0f0f0f 30%,
+			#0f0f0f 35%,
+			transparent 35%,
+			transparent 40%,
+			#0f0f0f 40%,
+			#0f0f0f 45%,
+			transparent 45%,
+			transparent 50%,
+			#0f0f0f 50%,
+			#0f0f0f 100%,
+			transparent 55%,
+			transparent 60%,
+			#0f0f0f 60%,
+			#0f0f0f 65%,
+			transparent 65%,
+			transparent 70%,
+			#0f0f0f 70%,
+			#0f0f0f 75%,
+			transparent 70%,
+			transparent 80%,
+			#0f0f0f 80%,
+			#0f0f0f 85%,
+			transparent 85%,
+			transparent 90%,
+			#0f0f0f 90%,
+			#0f0f0f 95%,
+			transparent 95%
+		),
+		linear-gradient(
+			135deg,
+			#0f0f0f 0%,
+			#0f0f0f 5%,
+			transparent 5%,
+			transparent 10%,
+			#0f0f0f 10%,
+			#0f0f0f 15%,
+			transparent 15%,
+			transparent 20%,
+			#0f0f0f 20%,
+			#0f0f0f 25%,
+			transparent 25%,
+			transparent 30%,
+			#0f0f0f 30%,
+			#0f0f0f 35%,
+			transparent 35%,
+			transparent 40%,
+			#0f0f0f 40%,
+			#0f0f0f 45%,
+			transparent 45%,
+			transparent 50%,
+			#0f0f0f 50%,
+			#0f0f0f 55%,
+			transparent 55%,
+			transparent 60%,
+			#0f0f0f 60%,
+			#0f0f0f 65%,
+			transparent 65%,
+			transparent 70%,
+			#0f0f0f 70%,
+			#0f0f0f 75%,
+			transparent 70%,
+			transparent 80%,
+			#0f0f0f 80%,
+			#0f0f0f 85%,
+			transparent 85%,
+			transparent 90%,
+			#0f0f0f 90%,
+			#0f0f0f 95%,
+			transparent 95%
+		);
+	background-size: 1em 1em;
+	background-color: #000000;
+	opacity: 1;
+	animation: gradient-animation 200s linear infinite;
+}
+
+@keyframes gradient-animation {
+	from {
+		background-position: 0%;
+	}
+	to {
+		background-position: 100%;
+	}
+}

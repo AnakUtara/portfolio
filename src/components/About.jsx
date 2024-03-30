@@ -10,7 +10,7 @@ export default function About({ id }) {
 				emergency
 			</span>
 			<h2 className=" w-2/4 font-bold text-2xl sm:text-3xl md:text-4xl text-center 2xl:text-6xl">
-				10 years ago. My 🧠 couldn't understand all of these: 🔽
+				Years ago, my 🧠 couldn't understand all of these: 🔽
 			</h2>
 			<div className="w-2/4 flex justify-center gap-3 flex-wrap">
 				{["HTML5", "CSS3", "Javascript", "React", "Tailwind CSS"].map(
