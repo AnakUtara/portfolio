@@ -3,7 +3,7 @@
 export default function Gallery({ state, data }) {
 	return (
 		<div
-			className={`w-2/4 rounded-lg drop-shadow-lg overflow-hidden relative 2xl:w-5/6 ${
+			className={`w-2/4 rounded-lg drop-shadow-lg overflow-hidden relative 2xl:w-3/6 ${
 				state["left"] ? "animate-fade-in-right" : ""
 			} ${state["right"] ? "animate-fade-in-left" : ""} ${
 				state["center"] ? "animate-fade-in" : ""

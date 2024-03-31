@@ -50,7 +50,7 @@ export default function WorksPage({ id }) {
 					Hover on image to see details
 				</span>
 			</div>
-			<div className="flex justify-evenly relative items-center w-full mb-5">
+			<div className="flex relative items-center w-full mb-5 justify-center gap-10">
 				<GalleryBtn onclick={prevImg}>chevron_left</GalleryBtn>
 				<Gallery state={isPressed} data={imgData} />
 				<GalleryBtn onclick={nextImg}>chevron_right</GalleryBtn>
