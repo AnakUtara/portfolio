@@ -52,7 +52,7 @@ function App() {
 					</SocMedBtn>
 				</div>
 			</header>
-			<main className="snap-y snap-proximity h-svh overflow-y-auto scroll-smooth">
+			<main className="snap-y snap-proximity h-dvh overflow-y-auto scroll-smooth">
 				<HomePage id={"home"} headings={["Front-End", "Developer"]} />
 				<WorksPage id={"works"} />
 				<About id={"about"} />

@@ -40,7 +40,7 @@ export default function WorksPage({ id }) {
 	return (
 		<div
 			id={id}
-			className="snap-start works-page bg-gradient-radial from-black to-transparent flex flex-col justify-center items-center h-svh"
+			className="snap-start works-page bg-gradient-radial from-black to-transparent flex flex-col justify-center items-center h-dvh"
 		>
 			<div className="hidden lg:flex lg:items-center text-white lg:mb-3 2xl:mb-5">
 				<span className="material-symbols-outlined font-bold text-xl animate-spin-slow mr-1 2xl:text-3xl">
