@@ -9,7 +9,7 @@ function App() {
 	useEffect(() => {
 		const hash = window.location.hash;
 		if (hash) {
-			window.location.hash = "";
+			window.location.href = "/";
 		}
 	}, []);
 	return (
@@ -52,7 +52,7 @@ function App() {
 					</SocMedBtn>
 				</div>
 			</header>
-			<main>
+			<main className="snap-y snap-proximity h-svh overflow-y-auto scroll-smooth">
 				<HomePage id={"home"} headings={["Front-End", "Developer"]} />
 				<WorksPage id={"works"} />
 				<About id={"about"} />

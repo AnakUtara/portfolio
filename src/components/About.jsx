@@ -4,7 +4,7 @@ export default function About({ id }) {
 	return (
 		<div
 			id={id}
-			className="flex flex-col items-center justify-center h-screen gap-3 2xl:gap-5"
+			className="snap-start flex flex-col items-center justify-center h-svh gap-3 2xl:gap-5"
 		>
 			<span className="material-symbols-outlined font-bold text-3xl animate-spin-slow lg:text-4xl 2xl:text-6xl">
 				emergency

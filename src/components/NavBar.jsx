@@ -1,5 +1,5 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
-import { useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 
 /* eslint-disable react/prop-types */
 export default function NavBar({ menu, scrollTo }) {
@@ -9,13 +9,35 @@ export default function NavBar({ menu, scrollTo }) {
 		)
 	);
 
-	function handleLocation(position) {
-		!location[position]
-			? setLocation(
-					location.map((isFound, find) => find === position && !isFound)
-			  )
-			: setLocation(location);
-	}
+	const handleLocation = useCallback(
+		(position) => {
+			!location[position]
+				? setLocation(
+						location.map((isFound, find) => find === position && !isFound)
+				  )
+				: setLocation(location);
+		},
+		[location]
+	);
+
+	useEffect(() => {
+		// console.log(scrollTo);
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry, i, self) => {
+					handleLocation(self.findIndex((e) => e.isIntersecting));
+				});
+			},
+			{
+				threshold: 0.45,
+			}
+		);
+		scrollTo.forEach((id) => observer.observe(document.querySelector(id)));
+		return () => {
+			scrollTo.forEach((id) => observer.unobserve(document.querySelector(id)));
+		};
+	}, [location, scrollTo, handleLocation]);
+
 	return (
 		<ul>
 			{menu.map((item, i) => (

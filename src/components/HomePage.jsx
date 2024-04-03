@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 export default function HomePage({ id, headings }) {
 	return (
-		<div id={id} className="flex justify-center items-center h-screen">
+		<div id={id} className="snap-start flex justify-center items-center h-svh">
 			<div className="relative ">
 				<span className="material-symbols-outlined absolute font-bold text-4xl -left-9 -top-2 md:text-5xl md:-left-12 md:-top-3 animate-spin-slow 2xl:text-7xl 2xl:-left-20">
 					emergency
