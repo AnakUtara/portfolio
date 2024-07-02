@@ -9,10 +9,10 @@
 		},
 		{
 			"id": 2,
-			"title": "OLX Details Page Replica",
-			"img_url": "portfolio/OLX-Details-Replica.png",
-			"desc": "Replica of OLX product details page to implement CSS knowledge.",
-			"url": ""
+			"title": "Flat",
+			"img_url": "portfolio/Flat.png",
+			"desc": "Personal company profile website about a fictional interior design company named, Flat. Made with Next.js 14.",
+			"url": "https://flat-co.vercel.app/"
 		},
 		{
 			"id": 3,
