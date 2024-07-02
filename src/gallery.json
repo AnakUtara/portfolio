@@ -11,7 +11,7 @@
 			"id": 2,
 			"title": "Flat",
 			"img_url": "portfolio/Flat.png",
-			"desc": "Personal company profile website about a fictional interior design company named, Flat. Made with Next.js 14.",
+			"desc": "Flat is a Next.js 14 based company profile for a fictional interior design agency.",
 			"url": "https://flat-co.vercel.app/"
 		},
 		{
