@@ -13,7 +13,7 @@ export default function About({ id }) {
 				Years ago, my 🧠 couldn't understand all of these: 🔽
 			</h2>
 			<div className="w-2/4 flex justify-center gap-3 flex-wrap">
-				{["HTML5", "CSS3", "Javascript", "React", "Tailwind CSS"].map(
+				{["HTML5", "CSS3", "Javascript", "React", "Next.js", "Express.js", "Tailwind CSS"].map(
 					(item, i) => (
 						<p
 							key={i}
