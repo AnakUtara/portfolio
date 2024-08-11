@@ -19,7 +19,7 @@ export default function Gallery({ state, data }) {
 					</p>
 				</div>
 				<a
-					className="align-middle p-1 text-sm md:p-2 md:text-base bg-zinc-300 text-black rounded-md transition-all duration-300 hover:text-white hover:bg-black 2xl:text-2xl"
+					className="align-middle flex items-center p-1 text-sm md:p-2 md:text-base bg-zinc-300 text-black rounded-md transition-all duration-300 hover:text-white hover:bg-black 2xl:text-2xl"
 					href={data["url"]}
 					target="_blank"
 				>
