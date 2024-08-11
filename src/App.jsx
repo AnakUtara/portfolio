@@ -53,7 +53,7 @@ function App() {
 				</div>
 			</header>
 			<main className="snap-y snap-proximity h-dvh overflow-y-auto scroll-smooth">
-				<HomePage id={"home"} headings={["Front-End", "Developer"]} />
+				<HomePage id={"home"} headings={["Front-End", "Back-End", "Full-Stack", "Developer"]} />
 				<WorksPage id={"works"} />
 				<About id={"about"} />
 			</main>
